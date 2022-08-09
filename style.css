@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mainheader {
+  background: white;
+  border: 1px solid #c8ccc0;
+  position: relative;
+  box-shadow: -2px 2px 12px rgba(0,0,0,0.3);
+  padding-right: 5px;
+  width: 515px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 25px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.header {
+  text-align: center;
+  margin-left: 6px;
+  margin-right: 6px;
+  width: 505px;
+  background: #F6F6EC;
+  border-radius: 10px;
+  border: 1px solid #c8ccc0;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+.text1 {
+  text-decoration: none;
+  color: #181870;
+  font-size: 14.6667px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.text1:hover {
+  text-decoration: underline;
+}
+
+.text1:visited {
+  color: #401848;
+}
+
+.alltext {
+  text-decoration: none;
+  color: #181870 ;
+}
+
+.alltext:hover {
+  text-decoration: underline;
+}
+
+.alltext:visited {
+  color: #401848;
+}
+
+.text2 {
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 11pt;
+}
+
+.text3 {
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 11pt;
+}
+ 
+
+.searchbox {
+  margin-top: 30px;
+}
+
+.searchbar {
+  margin-bottom: 10px;
+  background: white;
+  padding: 5px 40px;
+  border-radius: 10px;
+  border: 1px solid #c8ccc0;
+}
+
+.button {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #c8ccc0;
+  font-size: 14px;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.button:hover {
+  background: #ecece3;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.button:active {
+  background: #b3b3a9;
+}
+
+.boxtexts {
+  background: #F6F6EC;
+  margin-left: 6px;
+  padding-right: 4px;
+  width: 500px;
+  border: 1px solid #c8ccc0;
+  border-top: none;
+  padding-bottom: 8px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.box2text {
+  color: #181870;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 14.6667px;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.textbox1 {
+  padding: 2px;
+  background: #E8ECE0;
+  margin-top: 10px;
+  margin-left: 6px;
+  width: 500px;
+  border: 1px solid #c8ccc0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.box1text {
+  color: #220000;
+  font-size: 14.6667px;
+  font-weight: bold;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.textbox3 {
+  margin-left: -1px;
+  padding: 15px;
+  background: #E8ECE0;
+  width: 488px;
+  padding-left: 1px;
+  border: 1px solid #c8ccc0;
+}
+.box3text {
+  color: #181870;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 14.6667px;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.box4text {
+  color: #181870;
+  text-align: left;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 14.6667px;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.newsbox1 {
+  background: #E8ECE0;
+  margin-top: 40px;
+  margin-left: 6px;
+  width: 504px;
+  border: 1px solid #c8ccc0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.newsboxtext {
+  padding: 10px;
+  color: #181870;
+  font-size: 14.6667px;
+  font-weight: bold;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.allicons {
+  text-decoration: none;
+  color: #181870;
+}
+
+.allicons:hover {
+  color: #401848;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.allicons:active {
+  color: rgb(244, 79, 79);
+}
+
+.newstexts {
+  background: #F6F6EC;
+  margin-top: -1px;
+  padding-bottom: 1000px;
+  margin-left: 6px;
+  width: 504px;
+  border: 1px solid #c8ccc0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.upbuttonbox {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.upbutton {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12.6667px;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+
+.upbutton:hover {
+  text-decoration: underline;
+}
+
+.upbutton:active {
+  color: rgb(234, 62, 62);
+}
+
+
+
+.mediaicons {
+  height: 15px;
+}
+
+.copyrightbox {
+  padding: 5px;
+  margin-top: 70px;
+  margin-bottom: 5px;
+  background: #F6F6EC;
+  margin-left: 6px;
+  padding-right: 4px;
+  width: 500px;
+  border: 1px solid #c8ccc0;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  font-family: Open Sans, system-ui, -apple-syste"Helvetica Neue", sans-serif;
+  font-size: 10pt;
+}
+
+.copyrighttext1 {
+  color: #401848;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 9.5pt;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.copyrighttext1:hover {
+  text-decoration: underline;
+}
+
+.copyrighttext1:visited {
+  color: #401848;
+}
