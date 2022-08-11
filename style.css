@@ -281,6 +281,10 @@
   color: rgb(233, 68, 68) ;
 }
 
+.newtext1:visited {
+  color: #401848;
+}
+
 .news1 {
   text-decoration: none;
   color: #181870;
