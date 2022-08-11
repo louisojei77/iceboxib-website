@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mainheader {
+  background: white;
+  border: 1px solid #c8ccc0;
+  position: relative;
+  box-shadow: -2px 2px 12px rgba(0, 0, 0, 0.3);
+  padding-right: 5px;
+  width: 515px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 25px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.header {
+  text-align: center;
+  margin-left: 6px;
+  margin-right: 6px;
+  width: 505px;
+  background: #F6F6EC;
+  border-radius: 10px;
+  border: 1px solid #c8ccc0;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  box-shadow: -2px 2px 12px rgba(0,0,0,0.3);
+}
+
+.text1 {
+  text-decoration: none;
+  color: #181870;
+  font-size: 14.6667px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.text1:hover {
+  text-decoration: underline;
+}
+
+.text1:visited {
+  color: #401848;
+}
+
+.alltext {
+  text-decoration: none;
+  color: #181870 ;
+}
+
+.alltext:hover {
+  text-decoration: underline;
+}
+
+.alltext:visited {
+  color: #401848;
+}
+
+.subutton {
+  margin-right: 200px;
+  padding: 7px;
+  width: 100px;
+  border-radius: 20px;
+  background: rgb;
+  border: 1px solid #c8ccc0;
+  background: rgb(220, 113, 113);
+}
+
+.suibuttons {
+  text-decoration: none;
+  color: black;
+}
+
+.subutton:hover {
+  background: rgb(214, 68, 68);
+  cursor: pointer;
+  transition-delay: 0.1s;
+}
+
+.subutton:active {
+  background: rgb(163, 49, 49);
+}
+
+.sibutton {
+  padding: 7px;
+  width: 100px;
+  border-radius: 20px;
+  background: rgb(220, 113, 113);
+  border: 1px solid #c8ccc0;
+}
+
+.sibutton:hover {
+  background: rgb(214, 68, 68);
+  cursor: pointer;
+  transition-delay: 0.1s;
+}
+
+.sibutton:active {
+  background: rgb(163, 49, 49);
+}
+
+.text2 {
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 11pt;
+}
+
+.text3 {
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 11pt;
+}
+ 
+
+.searchbox {
+  margin-top: 15px;
+}
+
+.searchbar {
+  margin-bottom: 10px;
+  background: white;
+  padding: 5px 120px;
+  border-radius: 10px;
+  border: 1px solid #c8ccc0;
+  
+}
+
+.button {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #c8ccc0;
+  font-size: 14px;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.button:hover {
+  background: #ecece3;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.button:active {
+  background: #b3b3a9;
+}
+
+.newshead {
+  line-height: 1.5;
+  background: #ffffff;
+  box-shadow: -2px 10px 12px rgba(172, 246, 182, 0.3);
+  width: 510px;
+  font-family: Open Sans, Tahoma, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+.newsheadtext {
+  color: rgb(58, 56, 56);
+}
+
+.newsbox1 {
+  background:  #E8ECE0;
+  margin-top: 100px;
+  margin-left: 6px;
+  width: 504px;
+  border: 1px solid #c8ccc0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: -2px 2px 12px rgba(0,0,0,0.3);
+}
+
+.newsboxtext {
+  padding: 10px;
+  color: #181870;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.allicons {
+  text-decoration: none;
+  color: #181870;
+}
+
+.allicons:hover {
+  color: #401848;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.allicons:active {
+  color: rgb(232, 63, 63);
+  transition-delay: 0.1s;
+}
+
+.newstexts {
+  background: #F6F6EC;
+  margin-top: -1px;
+  padding-bottom: 30px;
+  margin-left: 6px;
+  width: 504px;
+  border: 1px solid #c8ccc0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -2px 2px 12px rgba(0,0,0,0.3);
+}
+
+.newstexts3 {
+  background: #F6F6EC;
+  margin-top: -1px;
+  padding-bottom: 30px;
+  margin-left: 6px;
+  width: 504px;
+  border: 1px solid #c8ccc0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -2px 2px 12px rgba(0,0,0,0.3);
+}
+
+.newstexts4 {
+  background: #F6F6EC;
+  margin-top: -1px;
+  padding-bottom: 1px;
+  margin-left: 6px;
+  width: 504px;
+  border: 1px solid #c8ccc0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -2px 2px 12px rgba(0,0,0,0.3);
+}
+
+.img1 {
+  height: 500px;
+  padding-right: 10px;
+  padding-left: 1px;
+}
+
+.img2 {
+  height: 515px;
+  padding-right: 10px;
+  padding-left: 1px;
+}
+
+.img3 {
+  height: 412px;
+  padding-right: 10px;
+  padding-left: 1px;
+}
+
+.vid1 {
+  height: 890px;
+}
+
+.vid2 {
+  height: 282px;
+}
+
+.vid3 {
+  height: 890px;
+}
+
+.newsboxtext2 {
+  margin-top: 15px;
+  padding: 10px;
+  color: #181870;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.newtext1 {
+  text-decoration: none;
+  color: #181870;
+}
+
+.newtext1:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #181870;
+}
+
+.newtext1:active {
+  color: rgb(233, 68, 68) ;
+}
+
+.news1 {
+  text-decoration: none;
+  color: #181870;
+  padding-top: 30px;
+  font-weight: bold;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
+.upbuttonbox {
+  text-align: center;
+  margin-left: 130px;
+  margin-top: 50px;
+}
+
+.upbutton {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12.6667px;
+  font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+
+.upbutton:hover {
+  text-decoration: underline;
+}
+
+.upbutton:active {
+  color: rgb(234, 62, 62);
+}
+
+
+
+.mediaicons {
+  height: 15px;
+}
+
+.copyrightbox {
+  padding: 5px;
+  margin-top: 70px;
+  margin-bottom: 5px;
+  background: #F6F6EC;
+  margin-left: 6px;
+  padding-right: 4px;
+  width: 500px;
+  border: 1px solid #c8ccc0;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  font-family: Verdana,sans-serif;
+  font-size: 9pt;
+  box-shadow: -2px 2px 12px rgba(0,0,0,0.3);
+  color: #2d2c2c;
+}
