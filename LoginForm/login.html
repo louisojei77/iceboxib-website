@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Form</title>
+  <script defer src="script.js"></script>
   <link rel="stylesheet" href="style2.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5752989799767550"
      crossorigin="anonymous"></script>
@@ -38,14 +39,18 @@
       </p>
       </div>
 
-      <div>
-        <p class="box2text">
-        <input class="inputtext1" type="first name" placeholder="First Name"> <input class="inputtext2" type="last name" placeholder="Last Name">
-        <br>
-        <input class="inputtext3" type="email adress" placeholder="Email Address"> <a href="../SubmitForm/successlog.html"><button class="formbutton">SUBMIT</button></a>
-      </p>
-      
-      </div>
+      <div id="error"></div>
+      <form action="https://formspree.io/iceboxib5@gmail.com" method="POST" id="form" action="/" method="GET">
+        <div>
+          <p class="box2text">
+          <input id="firstname" name="firstname" class="inputtext1" type="first name" required placeholder="First Name">
+           <input id="lastname" name="lastname" class="inputtext2" type="last name" required placeholder="Last Name">
+          <br>
+          <input id="emailaddress" name="emailaddress" class="inputtext3" type="email adress" required placeholder="Email Address"> <a href="../SubmitForm/successlog.html"><button class="formbutton">SUBMIT</button></a>
+        </p>
+        
+        </div>
+      </form>
 
       <div class="copyrightbox2">
         Copyright © 2022. All rights reserved|<a href="../privacypolicy/privacy.html"> cookie and privacy policy.</a>
