@@ -3,18 +3,107 @@
   padding: 0;
   text-align: center;
 }
-
 .mainheader {
   background: white;
   border: 1px solid #c8ccc0;
-  position: relative;
   box-shadow: -2px 2px 12px rgba(0, 0, 0, 0.3);
   padding-right: 5px;
   width: 515px;
   border-top: none;
   border-left: none;
   border-right: none;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.meanuicon {
+  margin-bottom: -50px;
+  margin-left: 10px;
+  margin-top: 7px;
+  position: relative;
+  display: block;
+  width: 35px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.meanuicon .bar, .meanuicon:after, .meanuicon:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.meanuicon.is-active:before {
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.meanuicon.is-active:after {
+  transform: rotate(45deg) translate(-9px, -8px);
+}
+
+.meanuicon.is-active .bar {
+  opacity: 0;
+}
+
+.mobile-nav {
+  border-top-left-radius: 126px;
+  position: fixed;
+  top: 0;
+  right: 100%;
+  width: 65%;
+  min-height: 100vh;
+  display: block;
+  z-index: 98;
+  background-color: rgb(214, 68, 68);
+  padding-top: 50px;
+  padding-bottom: 230px;
+  transition: 0.4s;
+  margin-right: 180px;
+}
+
+.mobile-nav.is-active {
+  right: 0;
+}
+
+.mobile-nav a {
+  border: 1px solid white;
+  border-left: none;
+  border-right: none;
+  color: white;
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 16px;
+  text-align: center;
+  padding: 12px 16px;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.mobile-nav a:hover {
+  background-color: rgb(70, 67, 67);
+}
+
+.mobile-nav a:active {
+  background-color: rgb(34, 31, 31);
+}
+
+@media (min-width: 768px) {
+  .mobile-nav {
+    display: none;
+  }
+
+  .meanuicon {
+    display: none;
+  }
 }
 
 .logo {
@@ -36,21 +125,13 @@
 
 .text1 {
   text-decoration: none;
-  color: #181870;
+  color: black;
   font-size: 14.6667px;
   font-weight: bold;
-  cursor: pointer;
   font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
   text-align: center;
 }
 
-.text1:hover {
-  text-decoration: underline;
-}
-
-.text1:visited {
-  color: #401848;
-}
 
 .alltext {
   text-decoration: none;
@@ -65,48 +146,88 @@
   color: #401848;
 }
 
-.subutton {
+.hobox {
+  margin-bottom: -32px;
+  margin-right: 190px;
+}
+
+.trbox {
+  margin-left: 50px;
+  margin-bottom: -32px;
+}
+
+.enbox {
+  margin-top: -30px;
+  margin-left: 125px;
+}
+
+.nebox {
+  margin-left: 400px;
+  margin-top: -32px;
+  padding-bottom: 5px;
+}
+
+.trbutton {
   margin-right: 200px;
   padding: 7px;
   width: 100px;
   border-radius: 20px;
   background: rgb;
   border: 1px solid #c8ccc0;
-  background: rgb(220, 113, 113);
-}
-
-.suibuttons {
-  text-decoration: none;
-  color: black;
-}
-
-.subutton:hover {
   background: rgb(214, 68, 68);
+}
+
+.tenbuttons {
+  text-decoration: none;
+  color: white;
+}
+
+.trbutton:hover {
+  background: rgb(220, 113, 113);
   cursor: pointer;
   transition-delay: 0.1s;
 }
 
-.subutton:active {
+.trbutton:active {
   background: rgb(163, 49, 49);
 }
 
-.sibutton {
+.enbutton {
   padding: 7px;
-  width: 100px;
+  width: 140px;
   border-radius: 20px;
-  background: rgb(220, 113, 113);
+  background: rgb(214, 68, 68);
   border: 1px solid #c8ccc0;
 }
 
-.sibutton:hover {
-  background: rgb(214, 68, 68);
+.enbutton:hover {
+  background: rgb(220, 113, 113);
   cursor: pointer;
   transition-delay: 0.1s;
 }
 
-.sibutton:active {
+.enbutton:active {
   background: rgb(163, 49, 49);
 }
+
+.nebutton {
+  padding: 7px;
+  width: 100px;
+  border-radius: 20px;
+  background: rgb(214, 68, 68);
+  border: 1px solid #c8ccc0;
+}
+
+.nebutton:hover {
+  background: rgb(220, 113, 113);
+  cursor: pointer;
+  transition-delay: 0.1s;
+}
+
+.nebutton:active {
+  background: rgb(163, 49, 49);
+}
+
 
 .text2 {
   font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
@@ -120,7 +241,8 @@
  
 
 .searchbox {
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: -8px;
 }
 
 .searchbar {
@@ -128,7 +250,7 @@
   background: white;
   padding: 5px 120px;
   border-radius: 10px;
-  border: 1px solid #c8ccc0;
+  border: 1px solid rgb(201, 88, 88);
   
 }
 
@@ -136,19 +258,21 @@
   background: white;
   padding: 5px 10px;
   border-radius: 10px;
-  border: 1px solid #c8ccc0;
+  border: 1px solid rgb(201, 88, 88);
   font-size: 14px;
   font-family: Open Sans, system-ui, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 }
 
 .button:hover {
-  background: #ecece3;
+  color: white;
+  background: rgb(220, 113, 113);
   transition: 0.1s;
   cursor: pointer;
 }
 
 .button:active {
-  background: #b3b3a9;
+  color: white;
+  background: rgb(163, 49, 49);
 }
 
 .boxtexts {
@@ -279,6 +403,10 @@
 
 .newtext1:active {
   color: rgb(233, 68, 68) ;
+}
+
+.newtext1:visited {
+  color: #401848;
 }
 
 .news1 {
